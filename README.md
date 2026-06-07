@@ -5,10 +5,25 @@ A clean, modern, and professional portal designed to centralize access to all pu
 ## 🚀 Features
 
 - **Categorized Dashboard**: Automatically separates public-facing projects, live demos, and internal management tools.
-- **Service Badges**: Quick visual identification of service status (Public, Demo, Internal).
-- **Responsive Design**: Fully functional on desktop, tablet, and mobile devices.
-- **Docker Ready**: One-command deployment for production environments.
-- **Automated Deployment**: Includes a shell script for seamless updates from GitHub.
+- **Liveness Monitoring**: Integrated health-check system with real-time status indicators.
+- **Data-Driven**: Easily maintainable via a single `services.json` file.
+- **Modern UI**: Apple-style "Soft UI" with staggered entry animations and tactile feedback.
+
+## 🔗 Live Services
+
+### Identity
+- [**Personal Website**](https://benedict.winlab.tw) - Modern personal platform and CMS.
+
+### Public Tools
+- [**QRender**](https://qrender.ben.winlab.tw) - Artistic QR code generator.
+- [**Markdown-to-PDF**](https://md2pdf.ben.winlab.tw) - Professional writing station.
+
+### Personal Services (Private Cloud)
+- [**Cloud Storage**](https://cloud.ben.winlab.tw/s/2c6EcP9F3H7ix5Q) - Nextcloud (Alternative to Google Drive/iCloud).
+- [**Image Service**](https://image.ben.winlab.tw/s/demo) - Immich (Alternative to Google Photos).
+- [**Online Office**](https://office.ben.winlab.tw/example/) - OnlyOffice (Alternative to Google Workspace/M365).
+- [**Line Service**](https://line.ben.winlab.tw) - Automated backup bot.
+- [**NAS Storage**](https://nas.ben.winlab.tw) - TrueNAS SCALE (Alternative to Synology/QNAP).
 
 ## 🛠️ Tech Stack
 
