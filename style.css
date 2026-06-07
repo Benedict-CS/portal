@@ -106,14 +106,9 @@ header p {
 }
 
 .card-content .icon {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    color: var(--primary-color);
-}
-
-.card-content .icon svg {
-    width: 32px;
-    height: 32px;
+    font-size: 2.25rem;
+    margin-bottom: 1.25rem;
+    line-height: 1;
 }
 
 .card-content h3 {
