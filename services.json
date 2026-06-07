@@ -57,7 +57,7 @@
       {
         "name": "NAS Storage",
         "url": "https://nas.ben.winlab.tw",
-        "description": "TrueNAS SCALE: Alternative to Synology DSM and commercial NAS systems.",
+        "description": "TrueNAS SCALE: Alternative to Synology DSM and QNAP QTS.",
         "icon": "💾"
       }
     ]
