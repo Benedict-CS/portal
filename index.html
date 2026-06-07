@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benedict's Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Benedict's Portal</h1>
+            <p>Access all my projects and services from one place.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="grid" id="portal-grid">
+            <!-- Markdown-to-PDF -->
+            <a href="https://md2pdf.ben.winlab.tw" class="card" target="_blank">
+                <div class="card-content">
+                    <div class="icon">📄</div>
+                    <h3>Markdown-to-PDF</h3>
+                    <p>Professional converter with clean typography and precise layout control.</p>
+                </div>
+                <div class="card-footer">
+                    <span>Visit Site</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </div>
+            </a>
+
+            <!-- QRender -->
+            <a href="https://qrender.ben.winlab.tw" class="card" target="_blank">
+                <div class="card-content">
+                    <div class="icon">🖼️</div>
+                    <h3>QRender</h3>
+                    <p>Open-source web app for creating artistic micro-dot style QR codes.</p>
+                </div>
+                <div class="card-footer">
+                    <span>Visit Site</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </div>
+            </a>
+
+            <!-- Personal Website -->
+            <a href="https://benedict.winlab.tw" class="card" target="_blank">
+                <div class="card-content">
+                    <div class="icon">🌐</div>
+                    <h3>Personal Website</h3>
+                    <p>My personal platform and CMS built with Next.js, Prisma, and PostgreSQL.</p>
+                </div>
+                <div class="card-footer">
+                    <span>Visit Site</span>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </div>
+            </a>
+
+            <!-- Nginx Proxy Manager (Placeholder based on logs) -->
+            <a href="#" class="card placeholder">
+                <div class="card-content">
+                    <div class="icon">⚙️</div>
+                    <h3>Nginx Proxy Manager</h3>
+                    <p>Management UI for handling proxy hosts and SSL certificates.</p>
+                </div>
+                <div class="card-footer">
+                    <span>Internal Tool</span>
+                </div>
+            </a>
+            
+            <!-- Future Project Placeholder -->
+            <div class="card placeholder">
+                <div class="card-content">
+                    <div class="icon">➕</div>
+                    <h3>New Tool</h3>
+                    <p>Something awesome will appear here soon...</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Benedict. Built for efficiency.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
