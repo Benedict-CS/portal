@@ -7,6 +7,7 @@ async function initPortal() {
         
         mainContainer.innerHTML = '';
         
+        let cardCount = 0;
         categories.forEach(category => {
             const section = document.createElement('section');
             section.className = 'portal-section';
@@ -22,6 +23,13 @@ async function initPortal() {
                 card.className = 'card';
                 card.target = '_blank';
                 card.dataset.url = service.url;
+                
+                // Staggered delay logic
+                const delay = cardCount * 100;
+                setTimeout(() => {
+                    card.classList.add('visible');
+                }, delay);
+                cardCount++;
                 
                 card.innerHTML = `
                     <div class="status-indicator">
