@@ -1,0 +1,65 @@
+[
+  {
+    "category": "Identity",
+    "services": [
+      {
+        "name": "Personal Website",
+        "url": "https://benedict.winlab.tw",
+        "description": "My personal platform and CMS.",
+        "icon": "🌐"
+      }
+    ]
+  },
+  {
+    "category": "Public Tools",
+    "services": [
+      {
+        "name": "QRender",
+        "url": "https://qrender.ben.winlab.tw",
+        "description": "Artistic QR code generator.",
+        "icon": "🖼️"
+      },
+      {
+        "name": "Markdown-to-PDF",
+        "url": "https://md2pdf.ben.winlab.tw",
+        "description": "Professional Markdown converter.",
+        "icon": "📄"
+      }
+    ]
+  },
+  {
+    "category": "Personal Services",
+    "services": [
+      {
+        "name": "Cloud Storage",
+        "url": "https://cloud.ben.winlab.tw/s/2c6EcP9F3H7ix5Q",
+        "description": "Secure personal cloud storage solution.",
+        "icon": "☁️"
+      },
+      {
+        "name": "Image Service",
+        "url": "https://image.ben.winlab.tw/s/demo",
+        "description": "High-performance image hosting.",
+        "icon": "📸"
+      },
+      {
+        "name": "Online Office",
+        "url": "https://office.ben.winlab.tw/example/",
+        "description": "Collaborative office suite.",
+        "icon": "🏢"
+      },
+      {
+        "name": "Line Service",
+        "url": "https://line.ben.winlab.tw",
+        "description": "Custom Line bot or integration service.",
+        "icon": "💬"
+      },
+      {
+        "name": "NAS Storage",
+        "url": "https://nas.ben.winlab.tw",
+        "description": "Network attached storage access.",
+        "icon": "💾"
+      }
+    ]
+  }
+]

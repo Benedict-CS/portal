@@ -99,6 +99,39 @@ header p {
     overflow: hidden;
 }
 
+.status-indicator {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #cbd5e1; /* Gray for checking */
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 0 2px #fff;
+}
+
+.status-indicator.online {
+    background-color: #22c55e; /* Green */
+    box-shadow: 0 0 8px #22c55e;
+}
+
+.status-indicator.offline {
+    background-color: #ef4444; /* Red */
+    box-shadow: 0 0 8px #ef4444;
+}
+
+.loading, .error {
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-muted);
+    font-size: 1.1rem;
+}
+
+.error {
+    color: #ef4444;
+}
+
 .card:hover {
     transform: translateY(-4px);
     box-shadow: var(--card-shadow-hover);
