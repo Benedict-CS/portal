@@ -57,7 +57,7 @@
       {
         "name": "NAS Storage",
         "url": "https://nas.ben.winlab.tw",
-        "description": "Enterprise-grade private cloud storage powered by TrueNAS Scale and ZFS tiered storage.",
+        "description": "TrueNAS SCALE: Alternative to Synology DSM and commercial NAS systems.",
         "icon": "💾"
       }
     ]
