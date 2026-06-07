@@ -24,6 +24,12 @@
         "url": "https://md2pdf.ben.winlab.tw",
         "description": "Transforms Markdown into polished, high-end PDF documents.",
         "icon": "📄"
+      },
+      {
+        "name": "PDF Compress",
+        "url": "https://pdf.ben.winlab.tw",
+        "description": "Fast and efficient online PDF compression tool.",
+        "icon": "🗜️"
       }
     ]
   },
