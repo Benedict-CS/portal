@@ -5,7 +5,7 @@
       {
         "name": "Personal Website",
         "url": "https://benedict.winlab.tw",
-        "description": "Modern personal platform and CMS with a commercial-grade dashboard, built using Next.js and Prisma.",
+        "description": "Modern personal platform and CMS.",
         "icon": "🌐"
       }
     ]
@@ -16,13 +16,13 @@
       {
         "name": "QRender",
         "url": "https://qrender.ben.winlab.tw",
-        "description": "Open-source generator for artistic micro-dot style QR codes with background image blending.",
+        "description": "Generator for artistic micro-dot style QR codes with background image blending.",
         "icon": "🖼️"
       },
       {
         "name": "Markdown-to-PDF",
         "url": "https://md2pdf.ben.winlab.tw",
-        "description": "Professional writing station that transforms Markdown into polished, high-end PDF documents.",
+        "description": "Transforms Markdown into polished, high-end PDF documents.",
         "icon": "📄"
       }
     ]
@@ -33,19 +33,19 @@
       {
         "name": "Cloud Storage",
         "url": "https://cloud.ben.winlab.tw/s/2c6EcP9F3H7ix5Q",
-        "description": "Self-hosted alternative to Google Drive and iCloud, providing secure digital sovereignty.",
+        "description": "Nextcloud: Alternative to Google Drive, OneDrive, and iCloud.",
         "icon": "☁️"
       },
       {
         "name": "Image Service",
         "url": "https://image.ben.winlab.tw/s/demo",
-        "description": "High-performance photo management platform, serving as a private alternative to Google Photos.",
+        "description": "Immich: Alternative to Google Photos and iCloud Photos.",
         "icon": "📸"
       },
       {
         "name": "Online Office",
         "url": "https://office.ben.winlab.tw/example/",
-        "description": "Collaborative office suite for document editing, providing an alternative to Google Workspace.",
+        "description": "OnlyOffice: Alternative to Google Workspace (Docs, Sheets, Slides) and Microsoft 365 (Word, Excel, PowerPoint).",
         "icon": "🏢"
       },
       {
