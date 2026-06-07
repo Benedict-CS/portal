@@ -108,6 +108,12 @@ header p {
 .card-content .icon {
     font-size: 2rem;
     margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.card-content .icon svg {
+    width: 32px;
+    height: 32px;
 }
 
 .card-content h3 {
@@ -122,21 +128,6 @@ header p {
     font-size: 0.95rem;
     margin-bottom: 1.5rem;
 }
-
-.badge {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    font-size: 0.75rem;
-    font-weight: 700;
-    padding: 0.25rem 0.625rem;
-    border-radius: 6px;
-    text-transform: uppercase;
-}
-
-.badge.public { background-color: #dcfce7; color: #166534; }
-.badge.preview { background-color: #fef9c3; color: #854d0e; }
-.badge.internal { background-color: #f1f5f9; color: #475569; }
 
 .card-footer {
     display: flex;
