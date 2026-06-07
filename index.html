@@ -18,67 +18,106 @@
     </header>
 
     <main class="container">
-        <div class="grid" id="portal-grid">
-            <!-- Markdown-to-PDF -->
-            <a href="https://md2pdf.ben.winlab.tw" class="card" target="_blank">
-                <div class="card-content">
-                    <div class="icon">📄</div>
-                    <h3>Markdown-to-PDF</h3>
-                    <p>Professional converter with clean typography and precise layout control.</p>
-                </div>
-                <div class="card-footer">
-                    <span>Visit Site</span>
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
-                </div>
-            </a>
+        <!-- Public Services Section -->
+        <section class="portal-section">
+            <h2 class="section-title">Public Services</h2>
+            <div class="grid">
+                <!-- Markdown-to-PDF -->
+                <a href="https://md2pdf.ben.winlab.tw" class="card" target="_blank">
+                    <div class="card-content">
+                        <div class="badge public">Public</div>
+                        <div class="icon">📄</div>
+                        <h3>Markdown-to-PDF</h3>
+                        <p>Professional converter with clean typography and precise layout control.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span>Visit Site</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                    </div>
+                </a>
 
-            <!-- QRender -->
-            <a href="https://qrender.ben.winlab.tw" class="card" target="_blank">
-                <div class="card-content">
-                    <div class="icon">🖼️</div>
-                    <h3>QRender</h3>
-                    <p>Open-source web app for creating artistic micro-dot style QR codes.</p>
-                </div>
-                <div class="card-footer">
-                    <span>Visit Site</span>
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
-                </div>
-            </a>
+                <!-- QRender -->
+                <a href="https://qrender.ben.winlab.tw" class="card" target="_blank">
+                    <div class="card-content">
+                        <div class="badge public">Public</div>
+                        <div class="icon">🖼️</div>
+                        <h3>QRender</h3>
+                        <p>Open-source web app for creating artistic micro-dot style QR codes.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span>Visit Site</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                    </div>
+                </a>
 
-            <!-- Personal Website -->
-            <a href="https://benedict.winlab.tw" class="card" target="_blank">
-                <div class="card-content">
-                    <div class="icon">🌐</div>
-                    <h3>Personal Website</h3>
-                    <p>My personal platform and CMS built with Next.js, Prisma, and PostgreSQL.</p>
-                </div>
-                <div class="card-footer">
-                    <span>Visit Site</span>
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
-                </div>
-            </a>
+                <!-- Personal Website -->
+                <a href="https://benedict.winlab.tw" class="card" target="_blank">
+                    <div class="card-content">
+                        <div class="badge public">Public</div>
+                        <div class="icon">🌐</div>
+                        <h3>Personal Website</h3>
+                        <p>My personal platform and CMS built with Next.js, Prisma, and PostgreSQL.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span>Visit Site</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                    </div>
+                </a>
+            </div>
+        </section>
 
-            <!-- Nginx Proxy Manager (Placeholder based on logs) -->
-            <a href="#" class="card placeholder">
-                <div class="card-content">
-                    <div class="icon">⚙️</div>
-                    <h3>Nginx Proxy Manager</h3>
-                    <p>Management UI for handling proxy hosts and SSL certificates.</p>
-                </div>
-                <div class="card-footer">
-                    <span>Internal Tool</span>
-                </div>
-            </a>
-            
-            <!-- Future Project Placeholder -->
-            <div class="card placeholder">
-                <div class="card-content">
-                    <div class="icon">➕</div>
-                    <h3>New Tool</h3>
-                    <p>Something awesome will appear here soon...</p>
+        <!-- Internal Infrastructure Section -->
+        <section class="portal-section">
+            <h2 class="section-title">Infrastructure & Internal</h2>
+            <div class="grid">
+                <!-- Nginx Proxy Manager -->
+                <a href="http://192.168.1.100:81" class="card internal" target="_blank">
+                    <div class="card-content">
+                        <div class="badge internal">Internal</div>
+                        <div class="icon">⚙️</div>
+                        <h3>Nginx Proxy Manager</h3>
+                        <p>Core management UI for proxy hosts, SSL certificates, and access lists.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span>Manage Infrastructure</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                    </div>
+                </a>
+
+                <!-- Other Services Placeholder -->
+                <a href="#" class="card internal placeholder-service">
+                    <div class="card-content">
+                        <div class="badge internal">Internal</div>
+                        <div class="icon">📦</div>
+                        <h3>Service at .149:3000</h3>
+                        <p>Running on 192.168.1.149. Add a name here when identified.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span>Access Tool</span>
+                    </div>
+                </a>
+
+                <a href="#" class="card internal placeholder-service">
+                    <div class="card-content">
+                        <div class="badge internal">Internal</div>
+                        <div class="icon">🧪</div>
+                        <h3>Service at .100:30027</h3>
+                        <p>Running on 192.168.1.100. Likely a development or k8s nodeport service.</p>
+                    </div>
+                    <div class="card-footer">
+                        <span>Access Tool</span>
+                    </div>
+                </a>
+                
+                <div class="card add-new">
+                    <div class="card-content">
+                        <div class="icon">➕</div>
+                        <h3>Add More</h3>
+                        <p>Edit index.html to add more services from your NPM list.</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
 
     <footer>
