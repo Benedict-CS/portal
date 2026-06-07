@@ -5,7 +5,7 @@
       {
         "name": "Personal Website",
         "url": "https://benedict.winlab.tw",
-        "description": "My personal platform and CMS.",
+        "description": "Modern personal platform and CMS with a commercial-grade dashboard, built using Next.js and Prisma.",
         "icon": "🌐"
       }
     ]
@@ -16,13 +16,13 @@
       {
         "name": "QRender",
         "url": "https://qrender.ben.winlab.tw",
-        "description": "Artistic QR code generator.",
+        "description": "Open-source generator for artistic micro-dot style QR codes with background image blending.",
         "icon": "🖼️"
       },
       {
         "name": "Markdown-to-PDF",
         "url": "https://md2pdf.ben.winlab.tw",
-        "description": "Professional Markdown converter.",
+        "description": "Professional writing station that transforms Markdown into polished, high-end PDF documents.",
         "icon": "📄"
       }
     ]
@@ -33,31 +33,31 @@
       {
         "name": "Cloud Storage",
         "url": "https://cloud.ben.winlab.tw/s/2c6EcP9F3H7ix5Q",
-        "description": "Secure personal cloud storage solution.",
+        "description": "Self-hosted alternative to Google Drive and iCloud, providing secure digital sovereignty.",
         "icon": "☁️"
       },
       {
         "name": "Image Service",
         "url": "https://image.ben.winlab.tw/s/demo",
-        "description": "High-performance image hosting.",
+        "description": "High-performance photo management platform, serving as a private alternative to Google Photos.",
         "icon": "📸"
       },
       {
         "name": "Online Office",
         "url": "https://office.ben.winlab.tw/example/",
-        "description": "Collaborative office suite.",
+        "description": "Collaborative office suite for document editing, providing an alternative to Google Workspace.",
         "icon": "🏢"
       },
       {
         "name": "Line Service",
         "url": "https://line.ben.winlab.tw",
-        "description": "Custom Line bot or integration service.",
+        "description": "Automated backup bot that persists LINE media and links directly to private cloud storage.",
         "icon": "💬"
       },
       {
         "name": "NAS Storage",
         "url": "https://nas.ben.winlab.tw",
-        "description": "Network attached storage access.",
+        "description": "Enterprise-grade private cloud storage powered by TrueNAS Scale and ZFS tiered storage.",
         "icon": "💾"
       }
     ]
