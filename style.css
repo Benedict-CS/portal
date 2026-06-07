@@ -165,7 +165,35 @@ footer {
     margin-top: 10rem;
     padding: 4rem 0;
     text-align: center;
-    opacity: 0.5;
+}
+
+.footer-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    opacity: 0.4;
+    transition: opacity 0.3s ease;
+}
+
+.footer-wrap:hover {
+    opacity: 0.8;
+}
+
+.footer-wrap p {
+    color: var(--text-main);
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.github-link {
+    color: var(--text-main);
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.github-link:hover {
+    transform: scale(1.1);
 }
 
 @media (max-width: 768px) {
