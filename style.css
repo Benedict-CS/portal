@@ -99,38 +99,6 @@ header p {
     overflow: hidden;
 }
 
-.card.internal {
-    background-color: #ffffff;
-    border-style: solid;
-}
-
-.badge {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    font-size: 0.75rem;
-    font-weight: 700;
-    padding: 0.25rem 0.625rem;
-    border-radius: 6px;
-    text-transform: uppercase;
-    letter-spacing: 0.025em;
-}
-
-.badge.public {
-    background-color: #dcfce7;
-    color: #166534;
-}
-
-.badge.preview {
-    background-color: #fef9c3;
-    color: #854d0e;
-}
-
-.badge.internal {
-    background-color: #f1f5f9;
-    color: #475569;
-}
-
 .card:hover {
     transform: translateY(-4px);
     box-shadow: var(--card-shadow-hover);
@@ -155,6 +123,21 @@ header p {
     margin-bottom: 1.5rem;
 }
 
+.badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 0.25rem 0.625rem;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+
+.badge.public { background-color: #dcfce7; color: #166534; }
+.badge.preview { background-color: #fef9c3; color: #854d0e; }
+.badge.internal { background-color: #f1f5f9; color: #475569; }
+
 .card-footer {
     display: flex;
     align-items: center;
@@ -167,32 +150,6 @@ header p {
 .card-footer svg {
     width: 16px;
     height: 16px;
-    transition: transform 0.2s ease;
-}
-
-.card:hover .card-footer svg {
-    transform: translate(2px, -2px);
-}
-
-.card.placeholder-service {
-    opacity: 0.8;
-}
-
-.card.add-new {
-    border: 2px dashed var(--card-border);
-    background-color: transparent;
-    box-shadow: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    opacity: 0.6;
-}
-
-.card.add-new:hover {
-    opacity: 1;
-    border-color: var(--primary-color);
-    background-color: #fff;
 }
 
 footer {
@@ -205,15 +162,5 @@ footer {
 }
 
 @media (max-width: 640px) {
-    header {
-        padding: 3rem 0 2rem;
-    }
-    
-    header h1 {
-        font-size: 2rem;
-    }
-    
-    .grid {
-        grid-template-columns: 1fr;
-    }
+    .grid { grid-template-columns: 1fr; }
 }
