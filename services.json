@@ -31,6 +31,12 @@
     "category": "Personal Services",
     "services": [
       {
+        "name": "NAS Storage",
+        "url": "https://nas.ben.winlab.tw",
+        "description": "TrueNAS SCALE: Alternative to Synology DSM and QNAP QTS.",
+        "icon": "💾"
+      },
+      {
         "name": "Cloud Storage",
         "url": "https://cloud.ben.winlab.tw/s/2c6EcP9F3H7ix5Q",
         "description": "Nextcloud: Alternative to Google Drive, OneDrive, and iCloud.",
@@ -49,16 +55,10 @@
         "icon": "🏢"
       },
       {
-        "name": "Line Service",
+        "name": "Line Media Backup",
         "url": "https://line.ben.winlab.tw",
         "description": "Automated backup bot that persists LINE media and links directly to private cloud storage.",
         "icon": "💬"
-      },
-      {
-        "name": "NAS Storage",
-        "url": "https://nas.ben.winlab.tw",
-        "description": "TrueNAS SCALE: Alternative to Synology DSM and QNAP QTS.",
-        "icon": "💾"
       }
     ]
   }
