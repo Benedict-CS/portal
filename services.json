@@ -18,6 +18,7 @@
         "url": "https://qrender.ben.winlab.tw",
         "description": "Generator for artistic micro-dot style QR codes with background image blending.",
         "icon": "🖼️"
+      },
       {
         "name": "Markdown-to-PDF",
         "url": "https://md2pdf.ben.winlab.tw",
@@ -30,24 +31,11 @@
         "description": "Unified toolkit for PDF compression, merging, rotation, and page management.",
         "icon": "🗜️"
       }
-      ]
-      },
-        "name": "PDF Compress",
-        "url": "https://pdf.ben.winlab.tw",
-        "description": "Fast and efficient online PDF compression tool.",
-        "icon": "🗜️"
-      }
     ]
   },
   {
     "category": "Personal Services",
     "services": [
-      {
-        "name": "NAS Storage",
-        "url": "https://nas.ben.winlab.tw",
-        "description": "TrueNAS SCALE: Alternative to Synology DSM and QNAP QTS.",
-        "icon": "💾"
-      },
       {
         "name": "Cloud Storage",
         "url": "https://cloud.ben.winlab.tw/s/2c6EcP9F3H7ix5Q",
@@ -67,10 +55,16 @@
         "icon": "🏢"
       },
       {
-        "name": "Line Media Backup",
+        "name": "Line Service",
         "url": "https://line.ben.winlab.tw",
         "description": "Automated backup bot that persists LINE media and links directly to private cloud storage.",
         "icon": "💬"
+      },
+      {
+        "name": "NAS Storage",
+        "url": "https://nas.ben.winlab.tw",
+        "description": "TrueNAS SCALE: Alternative to Synology DSM and QNAP QTS.",
+        "icon": "💾"
       }
     ]
   }
