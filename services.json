@@ -18,7 +18,6 @@
         "url": "https://qrender.ben.winlab.tw",
         "description": "Generator for artistic micro-dot style QR codes with background image blending.",
         "icon": "🖼️"
-      },
       {
         "name": "Markdown-to-PDF",
         "url": "https://md2pdf.ben.winlab.tw",
@@ -26,6 +25,13 @@
         "icon": "📄"
       },
       {
+        "name": "PDF Workspace",
+        "url": "https://pdf.ben.winlab.tw",
+        "description": "Unified toolkit for PDF compression, merging, rotation, and page management.",
+        "icon": "🗜️"
+      }
+      ]
+      },
         "name": "PDF Compress",
         "url": "https://pdf.ben.winlab.tw",
         "description": "Fast and efficient online PDF compression tool.",

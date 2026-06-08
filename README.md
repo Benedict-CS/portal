@@ -17,6 +17,7 @@ A clean, modern, and professional portal designed to centralize access to all pu
 ### Public Tools
 - [**QRender**](https://qrender.ben.winlab.tw) - Artistic QR code generator.
 - [**Markdown-to-PDF**](https://md2pdf.ben.winlab.tw) - Professional writing station.
+- [**PDF Workspace**](https://pdf.ben.winlab.tw) - Unified PDF compression and management toolkit.
 
 ### Personal Services (Private Cloud)
 - [**Cloud Storage**](https://cloud.ben.winlab.tw/s/2c6EcP9F3H7ix5Q) - Nextcloud (Alternative to Google Drive/iCloud).
