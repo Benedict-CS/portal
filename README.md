@@ -18,6 +18,7 @@ A clean, modern, and professional portal designed to centralize access to all pu
 - [**QRender**](https://qrender.ben.winlab.tw) - Artistic QR code generator.
 - [**Markdown-to-PDF**](https://md2pdf.ben.winlab.tw) - Professional writing station.
 - [**PDF Workspace**](https://pdf.ben.winlab.tw) - Unified PDF compression and management toolkit.
+- [**Photo Portfolio**](https://gallery.ben.winlab.tw) - Travel photo portfolio with interactive world map and country-grouped timeline.
 
 ### Personal Services (Private Cloud)
 - [**Cloud Storage**](https://cloud.ben.winlab.tw/s/2c6EcP9F3H7ix5Q) - Nextcloud (Alternative to Google Drive/iCloud).
@@ -68,21 +69,20 @@ chmod +x deploy.sh
 ```
 
 ## ➕ How to Add a New Service
-To add a new card to the portal, edit `index.html` and add an `<a>` tag within the appropriate `grid` container:
+The portal is data-driven — cards are rendered at runtime from `services.json`.
+Add a new entry under the appropriate category:
 
-```html
-<a href="URL" class="card internal" target="_blank">
-    <div class="card-content">
-        <div class="badge internal">Label</div>
-        <div class="icon">🚀</div>
-        <h3>Service Name</h3>
-        <p>Short description of the service.</p>
-    </div>
-    <div class="card-footer">
-        <span>Display URL/IP</span>
-    </div>
-</a>
+```json
+{
+  "name": "Service Name",
+  "url": "https://service.example.com",
+  "description": "Short description of the service.",
+  "icon": "🚀"
+}
 ```
+
+After deploying the updated file, the new card appears with a live status
+indicator (the backend pings the URL via `/api/health`).
 
 ## 📜 License
 MIT
