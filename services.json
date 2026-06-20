@@ -30,6 +30,12 @@
         "url": "https://pdf.ben.winlab.tw",
         "description": "Unified toolkit for PDF compression, merging, rotation, and page management.",
         "icon": "🗜️"
+      },
+      {
+        "name": "Photo Portfolio",
+        "url": "https://gallery.ben.winlab.tw",
+        "description": "Curated travel photo portfolio with an interactive world map and country-grouped timeline.",
+        "icon": "🗺️"
       }
     ]
   },
