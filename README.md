@@ -5,7 +5,7 @@ A clean, modern, and professional portal designed to centralize access to all pu
 ## 🚀 Features
 
 - **Categorized Dashboard**: Automatically separates public-facing projects, live demos, and internal management tools.
-- **Liveness Monitoring**: Integrated health-check system with real-time status indicators.
+- **Liveness Monitoring**: Integrated health-check system with real-time status indicators. The backend only probes URLs published in `services.json` (allowlist), so the endpoint cannot be abused as an open proxy (SSRF-safe).
 - **Data-Driven**: Easily maintainable via a single `services.json` file.
 - **Modern UI**: Apple-style "Soft UI" with staggered entry animations and tactile feedback.
 
@@ -29,8 +29,8 @@ A clean, modern, and professional portal designed to centralize access to all pu
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: Vanilla HTML5, CSS3 (CSS Grid/Flexbox), Inter Font.
-- **Backend**: Node.js + Express.js (serving static assets).
+- **Frontend**: Vanilla HTML5, CSS3 (CSS Grid/Flexbox), native system font stack.
+- **Backend**: Node.js + Express.js (serves static assets and the `/api/health` proxy).
 - **DevOps**: Docker, Shell Scripting, Git.
 
 ## 📦 Installation & Setup
@@ -83,6 +83,10 @@ Add a new entry under the appropriate category:
 
 After deploying the updated file, the new card appears with a live status
 indicator (the backend pings the URL via `/api/health`).
+
+> Note: the backend reads the `services.json` allowlist at startup. Restart the
+> server (or redeploy the container) after editing the file so new URLs are
+> accepted by the health-check endpoint.
 
 ## 📜 License
 MIT

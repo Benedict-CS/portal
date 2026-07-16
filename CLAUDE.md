@@ -14,8 +14,14 @@ A professional, data-driven service portal with a Node.js Express backend and a 
 - `services.json`: **EDIT THIS FILE** to add, remove, or modify services.
 - `app.js`: Frontend logic, dynamic card rendering, staggered animations, and health checks.
 - `style.css`: Design system (Apple-style Soft UI).
-- `server.js`: Express server and `/api/health` proxy for status checks.
+- `server.js`: Express server; serves static assets and the `/api/health` proxy for status checks.
 - `deploy.sh`: Deployment script for building/running Docker containers.
+
+## Backend Behavior (`server.js`)
+- Serves the project root as static files, then falls back to `index.html` for any unmatched route (SPA-style catch-all `app.get('*')`).
+- `/api/health?url=<target>` performs a server-side GET and reports `{ online, status }`. 2xx/3xx are treated as online; a 5s timeout or connection error yields `{ online: false }`.
+- **SSRF protection**: the endpoint validates the requested URL against an allowlist built from `services.json` at startup. Any URL not in the allowlist returns HTTP 403. When adding/removing services, restart the server so the allowlist reloads.
+- The health handler uses a single-response guard so overlapping socket events (timeout + error) can never double-send and crash the response.
 
 ## Critical Maintenance Rules (AI MUST FOLLOW)
 1. **Content Updates**: Never add cards directly to `index.html`. Always update `services.json`.
