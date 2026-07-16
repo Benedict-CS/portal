@@ -4,7 +4,7 @@
     "services": [
       {
         "name": "Personal Website",
-        "url": "https://benedict.winlab.tw",
+        "url": "https://personal-website-xi-three-s7t2i1disl.vercel.app",
         "description": "Modern personal platform and CMS.",
         "icon": "🌐"
       }
@@ -15,62 +15,15 @@
     "services": [
       {
         "name": "QRender",
-        "url": "https://qrender.ben.winlab.tw",
+        "url": "https://qrender-orpin.vercel.app",
         "description": "Generator for artistic micro-dot style QR codes with background image blending.",
         "icon": "🖼️"
       },
       {
         "name": "Markdown-to-PDF",
-        "url": "https://md2pdf.ben.winlab.tw",
+        "url": "https://markdown-to-pdf-beta.vercel.app",
         "description": "Transforms Markdown into polished, high-end PDF documents.",
         "icon": "📄"
-      },
-      {
-        "name": "PDF Workspace",
-        "url": "https://pdf.ben.winlab.tw",
-        "description": "Unified toolkit for PDF compression, merging, rotation, and page management.",
-        "icon": "🗜️"
-      },
-      {
-        "name": "Photo Portfolio",
-        "url": "https://gallery.ben.winlab.tw",
-        "description": "Curated travel photo portfolio with an interactive world map and country-grouped timeline.",
-        "icon": "🗺️"
-      }
-    ]
-  },
-  {
-    "category": "Personal Services",
-    "services": [
-      {
-        "name": "Cloud Storage",
-        "url": "https://cloud.ben.winlab.tw/s/2c6EcP9F3H7ix5Q",
-        "description": "Nextcloud: Alternative to Google Drive, OneDrive, and iCloud.",
-        "icon": "☁️"
-      },
-      {
-        "name": "Image Service",
-        "url": "https://image.ben.winlab.tw/s/demo",
-        "description": "Immich: Alternative to Google Photos and iCloud Photos.",
-        "icon": "📸"
-      },
-      {
-        "name": "Online Office",
-        "url": "https://office.ben.winlab.tw/example/",
-        "description": "OnlyOffice: Alternative to Google Workspace (Docs, Sheets, Slides) and Microsoft 365 (Word, Excel, PowerPoint).",
-        "icon": "🏢"
-      },
-      {
-        "name": "Line Service",
-        "url": "https://line.ben.winlab.tw",
-        "description": "Automated backup bot that persists LINE media and links directly to private cloud storage.",
-        "icon": "💬"
-      },
-      {
-        "name": "NAS Storage",
-        "url": "https://nas.ben.winlab.tw",
-        "description": "TrueNAS SCALE: Alternative to Synology DSM and QNAP QTS.",
-        "icon": "💾"
       }
     ]
   }
