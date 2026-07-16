@@ -4,3 +4,5 @@ ntuser.dat*
 *.log
 node_modules/
 .env
+.vercel
+.env*
